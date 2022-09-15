@@ -1,0 +1,26 @@
+:root {
+    --primary: #7969FF;
+    --error: #ff5555;
+    --input-unvisited: #CACACA;
+    --input-hover: #382364;
+    --input_boxshadow: 0 0 0 4px #7869ff20;
+    --input_hover_border: 1px solid #7869ff50;
+    --input_background: #F5F5F5;
+    --input_background: #7869ff10;
+    --input_error_border: 1px solid #ff5c5c50;
+    --input_error_boxshadow: 0 0 0 4px #ff5c5c20;
+    --input_error_background: #FFEEEE;
+    --notification_surface: #e4e4e498;
+    --notification_success: #00AF66;
+    --notification_error: #EC5557
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", "Inter", sans-serif;
+}
+body{
+    font-size: 16px;
+}
